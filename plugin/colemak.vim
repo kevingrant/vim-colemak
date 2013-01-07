@@ -10,11 +10,11 @@ xnoremap e j
 nnoremap i l
 xnoremap i l
 
-" Rapid up/down movement
-"nnoremap <silent> E @='5j'<CR>
-"nnoremap <silent> U @='5k'<CR>
-nnoremap E 5j
-nnoremap U 5k
+" Window movement
+nnoremap <C-w>n <C-w>h
+nnoremap <C-w>u <C-w>k
+nnoremap <C-w>e <C-w>j
+nnoremap <C-w>i <C-w>l
 
 " Soft BOL/EOL
 nnoremap N ^
@@ -35,18 +35,6 @@ onoremap h <PageDown>
 " Scroll line
 nnoremap <C-u> <C-y>
 nnoremap <C-e> <C-e>
-
-" Move line up/down
-nnoremap <silent> <M-u> :move .-2<CR>
-nnoremap <silent> <M-e> :move .+1<CR>
-vnoremap <silent> <M-u> :move '<-2<CR>gv
-vnoremap <silent> <M-e> :move '>+1<CR>gv
-
-" Window movement
-nnoremap <C-w>n <C-w>h
-nnoremap <C-w>u <C-w>k
-nnoremap <C-w>e <C-w>j
-nnoremap <C-w>i <C-w>l
 
 " inSert
 nnoremap s i
@@ -107,6 +95,7 @@ xnoremap iw iw
 xnoremap iW iW
 xnoremap is is
 xnoremap ip ip
+xnoremap it it
 xnoremap i[ i[
 xnoremap i] i]
 xnoremap i( i(
