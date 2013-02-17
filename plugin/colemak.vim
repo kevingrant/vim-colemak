@@ -3,10 +3,10 @@
 " Movement
 nnoremap n h
 xnoremap n h
-nnoremap u k
-xnoremap u k
-nnoremap e j
-xnoremap e j
+nnoremap u gk
+xnoremap u gk
+nnoremap e gj
+xnoremap e gj
 nnoremap i l
 xnoremap i l
 
@@ -43,7 +43,6 @@ nnoremap S I
 " Copy (Yank)
 nnoremap c y
 xnoremap c y
-nnoremap C Y
 nnoremap cc Y
 
 " Transform (Change)
