@@ -23,10 +23,8 @@ nnoremap <C-e> <C-e>
 " PageUp/PageDown
 nnoremap j <PageUp>
 xnoremap j <PageUp>
-onoremap j <PageUp>
 nnoremap h <PageDown>
 xnoremap h <PageDown>
-onoremap h <PageDown>
 
 " Soft BOL/EOL
 nnoremap N ^
