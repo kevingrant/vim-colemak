@@ -11,18 +11,14 @@ nnoremap i l
 xnoremap i l
 
 " Window movement
-nnoremap <C-w>n <C-w>h
+nnoremap <C-n>  <C-w>h
 nnoremap <C-w>u <C-w>k
 nnoremap <C-w>e <C-w>j
-nnoremap <C-w>i <C-w>l
+nnoremap <C-i>  <C-w>l
 
-" Soft BOL/EOL
-nnoremap N ^
-xnoremap N ^
-onoremap N ^
-nnoremap I $
-xnoremap I $
-onoremap I $
+" Scroll line
+nnoremap <C-u> <C-y>
+nnoremap <C-e> <C-e>
 
 " PageUp/PageDown
 nnoremap j <PageUp>
@@ -32,9 +28,13 @@ nnoremap h <PageDown>
 xnoremap h <PageDown>
 onoremap h <PageDown>
 
-" Scroll line
-nnoremap <C-u> <C-y>
-nnoremap <C-e> <C-e>
+" Soft BOL/EOL
+nnoremap N ^
+xnoremap N ^
+onoremap N ^
+nnoremap I $
+xnoremap I $
+onoremap I $
 
 " inSert
 nnoremap s i
