@@ -11,14 +11,10 @@ nnoremap i l
 xnoremap i l
 
 " Window movement
-nnoremap <C-n>  <C-w>h
-nnoremap <C-w>u <C-w>k
-nnoremap <C-w>e <C-w>j
-nnoremap <C-i>  <C-w>l
-
-" Scroll line
-nnoremap <C-u> <C-y>
-nnoremap <C-e> <C-e>
+nnoremap <C-n> <C-w>h
+nnoremap <C-u> <C-w>k
+nnoremap <C-e> <C-w>j
+nnoremap <C-i> <C-w>l
 
 " PageUp/PageDown
 nnoremap j <PageUp>
